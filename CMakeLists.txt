@@ -14,7 +14,6 @@ target_compile_definitions(
 	${ProjectName} PUBLIC
 	USE_HAL_DRIVER=1
 	STM32H743xx=1
-	__FPU_PRESENT=1
 )
 
 target_import_src(${ProjectName})
