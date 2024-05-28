@@ -14,6 +14,7 @@ extern "C" {
 	#include<stm32h7xx_hal_rcc_ex.h>
 	#include<stm32h7xx_hal_uart.h>
 	#include<stm32h7xx_ll_fmac.h>
+	#include<stm32h7xx_ll_fmc.h>
 
 
 	#ifdef __cplusplus
