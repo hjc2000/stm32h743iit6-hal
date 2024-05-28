@@ -513,6 +513,3 @@
 #endif
 
 #endif /* STM32H7xx_HAL_CONF_H */
-
-
-
