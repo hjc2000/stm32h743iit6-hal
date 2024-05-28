@@ -217,7 +217,7 @@
 #define  USE_HAL_TIM_REGISTER_CALLBACKS     0U /* TIM register callback disabled     */
 #define  USE_HAL_UART_REGISTER_CALLBACKS    0U /* UART register callback disabled    */
 #define  USE_HAL_USART_REGISTER_CALLBACKS   0U /* USART register callback disabled   */
-#define  USE_HAL_WWDG_REGISTER_CALLBACKS    0U /* WWDG register callback disabled    */
+#define  USE_HAL_WWDG_REGISTER_CALLBACKS    1U /* WWDG register callback disabled    */
 
 /* ########################### Ethernet Configuration ######################### */
 #define ETH_TX_DESC_CNT         4U  /* number of Ethernet Tx DMA descriptors */
