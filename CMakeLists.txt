@@ -17,3 +17,5 @@ target_compile_definitions(
 )
 
 target_import_src(${ProjectName})
+
+set(CMAKE_INSTALL_PREFIX ${cpp_lib_build_scripts_path}/${platform}/.libs/${ProjectName}/)
