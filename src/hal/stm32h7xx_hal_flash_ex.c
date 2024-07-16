@@ -294,7 +294,8 @@ HAL_StatusTypeDef HAL_FLASHEx_Erase(FLASH_EraseInitTypeDef *pEraseInit, uint32_t
 }
 
 /**
- * @brief  Perform a mass erase or erase the specified FLASH memory sectors with interrupt enabled
+ * @brief  Perform a mass erase or erase the specified FLASH memory sectors with
+ * interrupt enabled
  * @param  pEraseInit pointer to an FLASH_EraseInitTypeDef structure that
  *         contains the configuration information for the erasing.
  *
